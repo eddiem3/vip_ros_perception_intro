@@ -3,7 +3,7 @@
 Login to your VIP machine
 
 ```
-<username>@auatl-ros001.ssh.xtriage.com
+ssh -X <username>@auatl-ros001.ssh.xtriage.com
 ```
 ## Install 
 ```
