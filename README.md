@@ -5,7 +5,7 @@ Login to your VIP machine
 ```
 ssh -X <username>@auatl-ros001.ssh.xtriage.com
 ```
-## Install 
+## Install Tab/Pane Management Tool
 ```
 sudo apt install tmux
 ```
