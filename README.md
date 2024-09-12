@@ -18,6 +18,12 @@ git lfs pull
 source /opt/ros/jazzy/setup.bash
 python3 ros2_video_reader.py
 ```
+
+In another terminal you should be able to view the image data to confirm that data is being published.
+```
+source /opt/ros/jazzy/setup.bash
+ros2 topic echo /video_frames
+```
 This node should read video data from one of the videos in the same directory and publish the data to topic called /video_frames. You'll want to update the code to select one of the videos in the folder. It's default is "input_video.avi" which does not exist.
 
 ## Tasks 
